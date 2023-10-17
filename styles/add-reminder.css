@@ -1,0 +1,51 @@
+
+.add-reminder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-reminder button {
+    width: 130px;
+    height: 30px;
+    margin: 10px;
+    border: 2px solid#2af4e5;
+    border-radius: 5px;
+    color: #2af4e5;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.add-reminder .add-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-reminder .add-form .input-group {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.add-reminder .add-form input[type="text"] {
+    width: 230px;
+}
+
+.add-reminder .add-form input[type="date"] {
+    width: 110px;
+}
+
+.add-reminder .add-form input[type="time"] {
+    width: 110px;
+}
+
+.add-reminder .add-form .form-button {
+    width: 100px;
+}

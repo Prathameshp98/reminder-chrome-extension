@@ -3,11 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/add-reminder.css">
     <title>My extension</title>
 </head>
 <body>
-    <p>Hellooooo</p>
+    <div class="main">
+        <div class="header"></div>
+        <div class="add-reminder">
+            <button>Create New</button>
+            <div class="add-form">
+                <div class="input-group">
+                    <label>Name:</label>
+                    <input type="text" />
+                </div>
+                <div class="input-group">
+                    <label>Date:</label>
+                    <input type="date" />
+                </div>
+                <div class="input-group">
+                    <label>Time:</label>
+                    <input type="time" />
+                </div>
+                <button class="form-button">Discard</button>
+                <button class="form-button">Create</button>
+            </div>
+        </div>
+        <div class="active-reminders"></div>
+        <div class="inactive-reminders"></div>
+        <div class="footer"></div>
+    </div>
 </body>
 <script src="script.js"></script>
 </html>

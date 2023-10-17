@@ -4,12 +4,7 @@
     "description": "Best chrome extension",
     "manifest_version": 3,
     "author": "Prathamesh Patil",
-    "icons": {
-        "16": "",
-        "32": "",
-        "48": "",
-        "128": ""
-    },
+    "icons": {},
     "background": {
         "service_worker": "background.js"
     },
